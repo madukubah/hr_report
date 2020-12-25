@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            id="action_hr_overtime_report_wise"
+            string="Overtime Report"
+            model="hr.overtime.report"
+            report_type="qweb-pdf"
+            file="hr_report.report_overtime_temp"
+            name="hr_report.report_overtime_temp"
+        />
+    </data>
+</odoo>
